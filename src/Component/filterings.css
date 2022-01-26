@@ -1,0 +1,32 @@
+.filterings {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border: 2px solid lightblue;
+}
+.filterings-sub {
+  margin-left: 0.5rem;
+}
+.filterings-btn {
+  padding: 0.4rem;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 255, 0.603);
+  border-radius: 0.4rem;
+  color: whitesmoke;
+}
+.dark-btn {
+  padding: 0.4rem;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 255, 0.884);
+  border-radius: 0.4rem;
+  color: whitesmoke;
+}
+.clear-btn {
+  background-color: rgba(0, 0, 0, 0.829);
+  color: whitesmoke;
+  padding: 0.4rem;
+  margin: 0.2rem;
+  border-radius: 0.4rem;
+  letter-spacing: 0.05rem;
+}

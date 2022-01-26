@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: min-content;
+  position: relative;
+  padding-top: 3rem;
+}
+.product {
+  border: 1px solid lightcoral;
+  margin: 1rem;
+  padding: 0.5rem;
+  max-width: 250px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.product > img {
+  object-fit: contain;
+  width: 100%;
+  transition: all 600ms ease-in-out;
+  margin-top: 1rem;
+}
+
+.product > img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.sort-btn-div {
+  position: absolute;
+  top: 0.1%;
+  right: 5%;
+}
+.sort-btn {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: darkblue;
+  color: whitesmoke;
+}
